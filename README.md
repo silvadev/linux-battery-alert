@@ -69,3 +69,5 @@ exec --no-startup-id ~/.local/bin/battery-alert/battery-alert &
 ```bash
 ps aux | grep battery-alert
 ```
+
+If any issue please contact me [@asapdotid](mailto:asapdotid@gmail.com) 😃
