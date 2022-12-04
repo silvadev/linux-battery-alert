@@ -7,7 +7,7 @@ Low battery warning program for Linux users written in bash
 -   ~~Dunst [doc](https://dunst-project.org/)~~ [libnotify](https://github.com/GNOME/libnotify)
 -   Paplay [doc](https://linux.die.net/man/1/paplay)
 
-## Installasi:
+## Installation:
 
 1. Clone this project to:
 
@@ -21,7 +21,13 @@ Low battery warning program for Linux users written in bash
     git clone https://github.com/asapdotid/linux-battery-alert.git ~/.local/bin/battery-alert`
     ```
 
-2. Setup autostart `battery-alert`:
+2. Change options variables (optional):
+
+    - `percent_alert`: change this for battery level percent alert (default 20%).
+    - `alert_sound`: change this for baterry alert sound path.
+    - `time`: change this for time check interval and realert (default 60 seconds).
+
+3. Setup autostart `battery-alert`:
 
     - mkdir -p ~/.config/autostart `(if not exist)`
     - nano ~/.config/autostart/Battery-Alert `(editor: nano/gedit/vim/nvim)`
@@ -48,7 +54,7 @@ Low battery warning program for Linux users written in bash
         Hidden=false
         ```
 
-3. Restart
+4. Restart
 
 ## i3wm Setup
 
