@@ -4,7 +4,7 @@ Low battery warning program for Linux users written in bash
 
 ## Requirements
 
--   Dunst [doc](https://dunst-project.org/)
+-   ~~Dunst [doc](https://dunst-project.org/)~~ [libnotify](https://github.com/GNOME/libnotify)
 -   Paplay [doc](https://linux.die.net/man/1/paplay)
 
 ## Installasi:
